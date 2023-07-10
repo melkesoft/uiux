@@ -89,4 +89,38 @@ $('#contact').on('click', function(e) {
 
 });
 
+//toggle
+ 
+$("#flip-link").on("click",function(){
+    if($(".flip-box").css("transform") == 'none') {
+        $(".flip-box").css("transform","rotateY(180deg)");
+        //$(".flip-box img").attr("src","images/phone1.png");
+    }
+    else {
+        $(".flip-box").css("transform","");
+        //$(".flip-box img").attr("src","images/phone1.png");
+    }
+})
+
+$("#flip-link1").on("click",function(){
+    if($(".flip-box1").css("transform") == 'none') {
+        $(".flip-box1").css("transform","rotateY(180deg)");
+        //$(".flip-box img").attr("src","images/phone1.png");
+    }
+    else {
+        $(".flip-box1").css("transform","");
+        //$(".flip-box img").attr("src","images/phone1.png");
+    }
+})
+
+$("#flip-link2").on("click",function(){
+    if($(".flip-box2").css("transform") == 'none') {
+        $(".flip-box2").css("transform","rotateY(180deg)");
+        //$(".flip-box img").attr("src","images/phone1.png");
+    }
+    else {
+        $(".flip-box2").css("transform","");
+        //$(".flip-box img").attr("src","images/phone1.png");
+    }
+})
 });

@@ -48,3 +48,23 @@
     width: 1920px; height: 4723px; position: relative; background: #A8ACB2
 
 }
+.flip-box { 
+		 
+		transition: 0.9s;
+		transform-style: preserve-3d;
+		width: 318px; height: 561px; left: 258px; top: 1349px; position: absolute;
+	}
+.flip-box1 { 
+		 
+		transition: 0.9s;
+		transform-style: preserve-3d;
+		width: 339px; height: 551px; left: 812px; top: 1349px;   position: absolute;
+	}
+
+.flip-box2
+{ 
+		 
+		transition: 0.9s;
+		transform-style: preserve-3d;
+		width: 469px; height: 611px; left: 1319px; top: 1321px;  position: absolute;
+	}
