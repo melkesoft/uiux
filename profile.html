@@ -3,56 +3,7 @@
   <head>
     <link rel='stylesheet' type='text/css' href='./profile.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('#uparrow').on('click', function(e) {  
-          var target = $(this.hash);
-        target = $('#section1')
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: target.offset().top
-            }, 950);
-            return false;
-        }
-
-});
-
-$('#uparrow1').on('click', function(e) {  
-          var target = $(this.hash);
-        target = $('#section2')
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: target.offset().top
-            }, 950);
-            return false;
-        }
-
-});
-$('#uparrow2').on('click', function(e) {  
-          var target = $(this.hash);
-        target = $('#section3')
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: target.offset().top
-            }, 950);
-            return false;
-        }
-
-});
-
-$('#uparrow3').on('click', function(e) {  
-          var target = $(this.hash);
-        target = $('#section4')
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: target.offset().top
-            }, 950);
-            return false;
-        }
-
-});
-});
-    </script>
+    <script src="profile.js"></script>
   </head>
 <body>
 <div class="bodybackground">
@@ -61,8 +12,7 @@ $('#uparrow3').on('click', function(e) {
   <div style="width: 2934.18px; height: 0px; left: 1835px; top: 4117.18px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border: 4px #CD5334 solid"></div>
   <div style="width: 1920px; height: 157px; left: 0px; top: 0px; position: absolute; background: white"></div>
   <img style="width: 423px; height: 128px; left: 19px; top: 14px; position: absolute" src="images/header.png" />
-  <div style="width: 178px; left: 1250px; top: 57px; position: absolute; color: #477890; font-size: 32px; font-family: Futura; font-weight: 500; word-wrap: break-word">PORTFOLIO</div>
-  <div style="width: 178px; left: 1250px; top: 57px; position: absolute; color: #477890; font-size: 32px; font-family: Futura; font-weight: 500; word-wrap: break-word">PORTFOLIO</div>
+  <div style="width: 178px; left: 1250px; top: 57px; position: absolute; color: #477890; font-size: 32px; font-family: Futura; font-weight: 500; word-wrap: break-word"><a id="portfolio">PORTFOLIO</a></div>
   <div style="width: 890px; left: 894px; top: 407px; position: absolute; color: #477890; font-size: 32px; font-family: Futura; font-weight: 500; word-wrap: break-word">Hello! My name is Melvin Alexander, a passionate </div>
   <div class="headerText">UX / UI DESIGNER</div>
   <div id="uparrow3"><img style="width: 80px; height: 73px; left: 1000px; top: 3750px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0" src="images/uparrow.png" />
@@ -91,8 +41,8 @@ $('#uparrow3').on('click', function(e) {
   <div class="headerText2">ARTWORK</div>
   <div class="headerText3">ABOUT ME</div>
   <div style="width: 890px; left: 894px; top: 564px; position: absolute; color: #477890; font-size: 32px; font-family: Futura; font-weight: 500; word-wrap: break-word">who focuses on delivering innovative solutions whilst encompassing a meticulous attention to detail.</div>
-  <div style="width: 113px; left: 1498px; top: 57px; position: absolute; color: #477890; font-size: 32px; font-family: Futura; font-weight: 500; word-wrap: break-word">ABOUT</div>
-  <div style="width: 155px; left: 1682px; top: 57px; position: absolute; color: #477890; font-size: 32px; font-family: Futura; font-weight: 500; word-wrap: break-word">CONTACT</div>
+  <div style="width: 113px; left: 1498px; top: 57px; position: absolute; color: #477890; font-size: 32px; font-family: Futura; font-weight: 500; word-wrap: break-word"><a id="about">ABOUT</a></div>
+  <div style="width: 155px; left: 1682px; top: 57px; position: absolute; color: #477890; font-size: 32px; font-family: Futura; font-weight: 500; word-wrap: break-word"><a id="contact">CONTACT</a></div>
   <img style="width: 616px; height: 540px; left: 79px; top: 250px; position: absolute" src="images/mind.png" />
   <div id="uparrow"><img style="width: 80px; height: 73px; left: 1000px; top: 958px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0" src="images/uparrow.png" />
   </div>
