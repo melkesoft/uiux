@@ -1,0 +1,50 @@
+    /* UX / UI DESIGNER */
+.headerText 
+{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #477890;
+    line-height: 88px;
+ 
+    padding: 1px;
+    width: 826px; 
+    left: 894px; 
+    top: 456px; 
+    position: absolute; 
+    color: #477890; 
+    font-size: 96px;
+     font-family: League Spartan; font-weight: 500; 
+     font-style: normal;
+
+
+ 
+
+}
+
+.headerText1
+{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #477890;
+    line-height: 88px;
+    width: 301px; left: 725px; top: 1149px; position: absolute; color: rgba(71, 120, 144, 0); font-size: 60px; font-family: Futura; font-weight: 500; word-wrap: break-word
+}
+.headerText2
+{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #477890;
+    line-height: 88px;
+    width: 455px; left: 945px; top: 2041px; position: absolute; color: rgba(71, 120, 144, 0); font-size: 60px; font-family: Futura; font-weight: 500; word-wrap: break-word
+}
+
+.headerText3
+{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #477890;
+    line-height: 88px;
+    width: 455px; left: 833px; top: 2931px; position: absolute; color: rgba(71, 120, 144, 0); font-size: 60px; font-family: Futura; font-weight: 500; word-wrap: break-word
+}
+
+.bodybackground {
+
+    width: 1920px; height: 4723px; position: relative; background: #A8ACB2
+
+}
